@@ -8,8 +8,8 @@ fun main(){
     """.trimMargin()
     val notasdividas = notas.split("\n")
 
-    for (notasdividass in notasdividas){
-        val datos = notasdividass.split(",")
+    for (notasdividas in notasdividas){
+        val datos = notasdividas.split(",")
         val nombre = datos[0]
 
         val nota1 = datos[1].toDouble()
